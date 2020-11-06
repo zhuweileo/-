@@ -1,9 +1,9 @@
-name: 'GitHub Actions Weather Bot'
+name: 'qiafan bot'
 
 on:
   push:
   schedule:
-    - cron: '10 6 * * *'
+    - cron: '50 3 * * *'
 
 jobs:
   bot:
