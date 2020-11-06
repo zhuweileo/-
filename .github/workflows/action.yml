@@ -2,7 +2,7 @@ name: 'qiafan bot'
 
 on:
   schedule:
-    - cron: '50 */1 * * *' 
+    - cron: '50 3 * * *' 
 jobs:
   bot:
     runs-on: ubuntu-latest
