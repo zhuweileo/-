@@ -3,7 +3,7 @@ name: 'qiafan bot'
 on:
   schedule:
     - cron: '50 3 * * *' 
-    - cron: '30 10 * * *' 
+    - cron: '0 10 * * *' 
 jobs:
   bot:
     runs-on: ubuntu-latest
