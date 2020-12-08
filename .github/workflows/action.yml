@@ -2,7 +2,7 @@ name: 'qiafan bot'
 
 on:
   schedule:
-    - cron: '50 3 * * *' 
+    - cron: '50 3 * * 1-5' 
     # - cron: '0 10 * * *' 
 jobs:
   bot:
